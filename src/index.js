@@ -12,7 +12,7 @@ export default function App() {
   return (
     <HashRouter basename={"/grade-predictor-frontend"}>
       <Routes>
-        <Route path="/" element={<Layout />}>
+        <Route path="" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="account" element={<Account />} />
           <Route path="login" element={<Login />} />
