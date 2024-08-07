@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.e2e4281a.css",
-    "main.js": "/static/js/main.c3127d38.js",
-    "index.html": "/index.html",
-    "main.e2e4281a.css.map": "/static/css/main.e2e4281a.css.map",
-    "main.c3127d38.js.map": "/static/js/main.c3127d38.js.map"
+    "main.css": "/grade-predictor-frontend/static/css/main.e2e4281a.css",
+    "main.js": "/grade-predictor-frontend/static/js/main.c3127d38.js",
+    "index.html": "/grade-predictor-frontend/index.html",
+    "main.e2e4281a.css.map": "/grade-predictor-frontend/static/css/main.e2e4281a.css.map",
+    "main.c3127d38.js.map": "/grade-predictor-frontend/static/js/main.c3127d38.js.map"
   },
   "entrypoints": [
     "static/css/main.e2e4281a.css",
