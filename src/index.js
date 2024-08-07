@@ -1,5 +1,5 @@
 import ReactDOM from "react-dom";
-import { BrowserRouter, Routes, Route} from "react-router-dom";
+import { BrowserRouter, Routes, Route, HashRouter} from "react-router-dom";
 import Layout from "./pages/Layout";
 import Account from "./pages/Account";
 import Home from "./pages/Home";
@@ -10,7 +10,7 @@ import Register from "./pages/Register";
 
 export default function App() {
   return (
-    <BrowserRouter basename={"https://the-shahk.github.io/grade-predictor-frontend"}>
+    <HashRouter basename={"/grade-predictor-frontend"}>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
@@ -20,7 +20,7 @@ export default function App() {
           <Route path="register" element={<Register/> } />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
