@@ -1,0 +1,27 @@
+.Home {
+  text-align: center;
+  background-color: black;
+  height: 100vh
+}
+  
+  
+.mainbody {
+  background-color: #C4C4E2;
+  height: 90%;
+  width: 100vw;
+  bottom: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: larger;
+  display: flex;
+  flex-direction: column;
+}
+
+.loggedInText {
+  background-color: #EBC7E6;
+  height: 8%;
+  width: 100vw;
+  bottom: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+}

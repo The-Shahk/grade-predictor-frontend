@@ -1,0 +1,52 @@
+.Account {
+  text-align: center;
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+}
+  
+.mainbody {
+  background-color: #EBC7E6;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+}
+
+.tableRow {
+  display: flex;
+  flex-direction: horizontal;
+  align-items: center;
+  justify-content: center;
+}
+
+.tableItem {
+  text-align: center;
+  min-width: 200px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+h1 {
+  margin-bottom: 180px;
+  font-weight: 200;
+}
+
+.tableBox, .tableRow, .tableItem {
+  border-collapse: collapse;
+  border: 2px solid black;
+}
+
+td {
+  border-style: solid;
+}
+
+.textinput {
+  text-align: center;
+  border: none;
+  background-color: #EBC7E6;
+  justify-content: center;
+}

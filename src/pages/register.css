@@ -1,0 +1,109 @@
+.Register {
+    text-align: center;
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+  }
+    
+  .mainbody {
+    background-color: #EBC7E6;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+  }
+  
+  .form {
+    height: 100vh;
+    width: 100vw
+  }
+    
+  .registerbox {
+    background-color: #d5a8ff;
+    height: 70%;
+    width: 40%;
+    border-radius: 0.5%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: left;
+    font-size: 5;
+  }
+  
+  .section {
+    height: 15%;
+    width: 80%;
+    background-color: #EBC7E6;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: top;
+    padding: 10px;
+  }
+  
+  
+  .inputbox {
+    width: 90%;
+    height: 50%;
+    background-color: #e6eeff;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 5px;
+  }
+  
+  
+  .text {
+    font-size: 1;
+  }
+  
+  .images {
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+    margin-top: 5px;
+  }
+  
+  .inputs {
+    border: 1;
+    background: transparent;
+    margin: 2px;
+    width: 70%;
+    border-color: grey;
+  }
+  
+  .submit {
+    height: 45px;
+    width: 120px;
+    border: 0;
+    border-radius: 10%;
+    background-color: #8080ff;
+  }
+  
+  .submit:hover {
+    background-color: #8d8dff;
+    cursor: pointer;
+  }
+  
+  .horizontal {
+    display: flex;
+    flex-direction: horizontal;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  
+  .dropdown {
+    width: 40%;
+    height: 5%;
+    align-items: center;
+    justify-content: center;
+  }
+
+select {
+  min-width: 60%
+}

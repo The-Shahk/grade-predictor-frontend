@@ -1,0 +1,74 @@
+.Calculate {
+    text-align: center;
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    margin-top: 100px;
+    /* overflow: hidden; */
+  }
+
+
+  .mbody {
+  background-color: #EBC7E6;
+  /* height: 100%-100px; */
+  width: 100vw;
+  margin-top: 100px;
+  bottom: 0;
+  align-items: center;
+  justify-content: center ;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.horizontalBox {
+  display: flex;
+  flex-direction: horizontal;
+  justify-content: space-evenly;
+  width: 50%;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.title{
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+.leftTitle{
+  margin-bottom: 30px;
+  font-weight: 400;
+  margin-left: 100;
+}
+
+.gradeElement{
+  min-width: 150px
+}
+
+.subjectElement{
+  min-width: 250px
+}
+
+.calculateButton{
+  width: 150px;
+  height: 30px;
+  margin-top: 30px;
+  font-size: 15px;
+}
+
+.formBox {
+  width: 100vw;
+  align-items: center;
+  justify-content: center ;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.scroll {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  text-align: center;
+  padding: 20px;
+}
