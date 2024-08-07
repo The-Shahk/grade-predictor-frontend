@@ -10,7 +10,7 @@ import Register from "./pages/Register";
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={"https://the-shahk.github.io/grade-predictor-frontend"}>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
